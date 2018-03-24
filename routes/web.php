@@ -17,4 +17,5 @@
 
 Route::get('/','FrontendController@index');
 Route::get('/contact','ContactController@index');
+Route::get('/players','PlayerController@index');
 Route::get('/teams','TeamController@index');
