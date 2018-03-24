@@ -1,5 +1,5 @@
 @extends('layouts.front_master')
-
+@section('title','Players')
 @section('content')
     <!-- Section Title -->
     <div class="section-title" style="background:url(img/slide/1.jpg)">
