@@ -15,7 +15,11 @@
     return view('welcome');
 });*/
 
-Route::get('/','FrontendController@index');
-Route::get('/contact','ContactController@index');
-Route::get('/players','PlayerController@index');
-Route::get('/teams','TeamController@index');
+Route::get('/','DashboardController@index');
+Route::get('/clublists','ClublistController@index');
+Route::get('/fixtures','FixturesController@index');
+Route::get('/results','ResultsController@index');
+Route::get('/point-tables','PointTableController@index');
+Route::get('/sports','SportsController@index');
+Route::get('/sports2','Sports2Controller@index');
+Route::get('/single-page','SinglePageController@index');
